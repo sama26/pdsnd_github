@@ -1,12 +1,12 @@
 import time
 import pandas as pd
 
-CITY_DATA = {'chicago': 'chicago.csv',
+city_data = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
-months = ['january', 'february', 'march', 'april', 'may', 'june']
-days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
+days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
 
 def get_filters():
@@ -21,7 +21,7 @@ def get_filters():
     print('\nHello! Let\'s explore some US bike share data!')
     # Get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = ''
-    while city not in ('chicago', 'new york city', 'washington'):
+    while city not in city_data:
         city = input('\nPlease select a city from the following list:\n'
                      '\nChicago'
                      '\nNew York City'
@@ -30,7 +30,7 @@ def get_filters():
 
     # Get user input for month (all, january, february, ... , june)
     month = ''
-    while month not in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
+    while month not in months:
         month = input('\nPlease select a month from the following list:\n'
                       '\nJanuary'
                       '\nFebruary'
@@ -43,7 +43,7 @@ def get_filters():
 
     # Get user input for day of week (all, monday, tuesday, ... sunday)
     day = ''
-    while day not in ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all'):
+    while day not in days:
         day = input('\nPlease select a day of the week from the following list:\n'
                     '\nMonday'
                     '\nTuesday'
