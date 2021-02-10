@@ -98,7 +98,7 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays statistics on the most frequent times of travel for the chosen city."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
@@ -141,7 +141,7 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """Displays statistics on the most popular stations and trip for the chosen city."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
@@ -171,7 +171,7 @@ def station_stats(df):
 
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """Displays statistics on the total and average trip duration for the chosen city."""
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -191,7 +191,7 @@ def trip_duration_stats(df):
 
 
 def user_stats(df, city):
-    """Displays statistics on bike share users."""
+    """Displays statistics on bike share users for the chosen city."""
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -227,7 +227,7 @@ def user_stats(df, city):
 
 
 def show_data(df):
-    """Shows 5 lines of data at a time as requested by the user"""
+    """Shows 5 lines of data at a time as requested by the user, for the chosen city"""
 
     view_data = ''
     start_loc = 0
