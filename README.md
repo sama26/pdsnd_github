@@ -7,8 +7,8 @@ Project Bikeshare
 ### Description
 Provides a command line interface for users to analyse data about bikeshare programmes in 3 US cities.
 
-> Chicago
-> New York
+> Chicago <br>
+> New York <br>
 > Washington
 
 ### Files used
