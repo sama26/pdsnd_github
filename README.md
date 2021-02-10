@@ -1,15 +1,21 @@
 ### Date created
-Include the date you created this project and README file.
+27/01/2021
 
 ### Project Title
-Replace the Project Title
+Project Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+Provides a command line interface for users to analyse data about bikeshare programmes in 3 US cities.
+
+> Chicago
+> New York
+> Washington
 
 ### Files used
-Include the files used
+Project Bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://www.udacity.com
